@@ -1,0 +1,14 @@
+h1{
+    background-color: black;
+    font-family: sans-serif;
+}
+h2{
+    text-align: center;
+    background-color: blueviolet;
+    font-style: italic;
+}
+h3{
+    text-align: right;
+    text-decoration: underline;
+    background-color: lightblue;
+}
