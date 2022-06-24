@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    color: grey;
+}
+h3{
+    text-align: center;
+    color: grey;
+}
+.container1 {
+    height: 300px;
+    background-color: rgb(2, 13, 37);
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.container2 {
+    height: 300px;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    justify-content: space-around;
+}
+.container3 {
+    height: 300px;
+    margin: 20px;
+    background-color: cyan;           
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,25 @@
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col{
+    flex: 1;
+    background-color: gray;
+    width: 200px;
+    height: 100px; 
+    margin: 10px;
+}
+.col-2{
+    background-color: chartreuse;
+    width: 600px; 
+    height: 100px;
+    margin: 10px;
+    flex:2;
+}
+.col-3{
+    background-color: blue;
+    width: 900px;
+    height: 100px;
+    margin: 10px;
+    flex:3;
+}

@@ -1,0 +1,32 @@
+.nav{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.nav-title{
+    margin: 10px;
+}
+* {
+    color: white;
+    font-family: Roboto ,sans-serif;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    border: 2px solid black;
+    box-shadow: 1px 1px 0px 1px black;
+    background-color: rgb(5, 202, 202);
+}
