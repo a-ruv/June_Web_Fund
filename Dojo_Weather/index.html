@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo_Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav-title">DojoWeather</div>
+        <div class="cities">
+            <a href = "#" id = "burbank" onclick="alert('Loading weather report...')"> Burbank</a>
+            <a href = "#" id = "chicago" onclick="alert('Loading weather report...')"> Chicago</a>
+            <a href = "#" id = "Dallas" onclick="alert('Loading weather report...')"> Dallas</a>
+        </div>
+    </div>
+    <div class="frame">
+        <div class="top">
+            <h1>San Jose</h1>
+            <p>
+                show temperature in
+                <select name = conversion onchange="change(this)">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </p>
+        </div>
+        <div class="middle">
+            <div class="container1">
+                <h2>Today</h2>
+                <img src="assets/some_rain.png" alt="Rain">
+                <p> some rain </p>
+                <div>
+                    <div class="tempA"> <span id = "temp1" style="color: red;">24°</span><span id="temp2" style="color:blue;">18°</span></div>
+                </div>
+            </div>
+            <div class="container1">
+                <h2>Tomorrow</h2>
+                <img src="assets/some_sun.png" alt="Sun">
+                <p> some sun </p>
+                <div>
+                    <div class="tempA"> <span id = "temp3" style="color: red;">27°</span><span id="temp4" style="color:blue;">19°</span></div>
+                </div>
+            </div>
+            <div class="container1">
+                <h2>Friday</h2>
+                <img src="assets/some_clouds.png" alt="Clouds">
+                <p> some clouds </p>
+                <div>
+                    <div class="tempA"> <span id = "temp5" style="color: red;">21°</span><span id="temp6" style="color:blue;">16°</span></div>
+                </div>
+            </div>
+            <div class="container1">
+                <h2>Saturday</h2>
+                <img src="assets/some_sun.png" alt="Sun">
+                <p> some sun </p>
+                <div>
+                    <div class="tempA"> <span id = "temp7" style="color: red;">26°</span><span id="temp8" style="color:blue;">21°</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="cookie">
+                <img src="assets/cookie.png" alt="Cookie">
+            <div id ="text">
+                <h1>Stop! Cookie time</h1>
+                <p>
+                    We use cookies (sadly not the edible ones) to personalize <br>
+                    content and ads, to provide social media features and to <br>
+                    analyze our traffic. <a href= "#"> Read more...</a>
+                </p>
+            </div>
+            <button onclick="removeCookie()">I Accept</button>
+        </div>
+    </div> 
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+}
+.frame {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.nav-title {
+    margin-left: 200px;
+    color: white;
+}
+.nav-links {
+    display: flex;
+    flex: 4;
+    list-style-type: none;
+    color: white;
+}
+
+li {
+    margin: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+.search{
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+}
+.btn {
+    height: 30px;
+    width: 80px;
+    border: 2px solid black;
+    background-color: rgb(5, 202, 202);
+    color: white;
+    margin-right: 300px;
+}
+.container1 {
+    height: 350px;
+    width: 700px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    margin: 30px;
+}
+.row {
+    background-color: rgb(3, 149, 168);
+    height: 100px;
+}
+
+.pic {
+    height: 20px;
+}
+
+h3,
+p {
+    margin: 20px;
+}
+
+.profile-name {
+    margin-top: 35px;
+    margin-left: 20px;
+} 
+.profile-pic {
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.row a {
+    color: rgb(10, 86, 131);
+}
+.gear,
+.map-marker {
+    height: 20px;
+}
+
+.container2 {
+    height: px;
+    width: 700px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.row2 {
+    background-color: grey;
+    padding: 10px;
+}
+
+.title {
+    margin-left: 20px;
+    color: white;
+}
+.container3 {
+    height: 220px;
+    width: 300px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    margin: 30px;
+}
+#friend {
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px;
+    position: relative;
+    top: 20px;
+}
+
+.yes,
+.no {
+    height: 25px;
+    margin: 10px;
+    position: relative;
+    top: 15px;
+}
+.container4 {
+    width: 300px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    margin: 30px;
+}
+.more {
+    height: 20px;
+    padding: 10px;
+    border: 2px solid lightgray;
+}
+.box1 {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    padding: 20px;
+}
+.box2 {
+    padding: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+span{
+    font-size: small;
+    background-color: lightgray;
+    color: black;
+    border-radius: 50%;
+    padding: 10px;
+    font-weight: 900;
+}

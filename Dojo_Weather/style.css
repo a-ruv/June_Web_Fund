@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+    font-size: 110%;
+}
+.nav{
+    background-color: rgb(153, 186, 230);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 150%;
+
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin:20px;
+}
+.frame{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    box-shadow: 0px 3px 0px 0px gray;
+    margin-bottom: 40px;
+    align-items: center;
+    font-size: 150%;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.container1{
+    background-color: rgb(240, 240, 240);
+    padding: 40px;
+    margin: 20px;
+}
+.container1 h2,
+.container1 p ,
+.tempA {
+    margin: 20px;
+}
+.container1 img{
+    border-radius: 50%;
+    height: 130px;
+    margin: 10px;
+}
+#temp1,
+#temp3,
+#temp5,
+#temp7{
+    margin-right: 40px;
+}
+#temp2,
+#temp4,
+#temp6,
+#temp8{
+    margin-left: 40px;
+}
+.cookie{
+    border: 2px solid black;
+    display: flex;
+    height: 120px;
+    width: 1280px;
+    padding: 20px;
+    font-size: 100%;
+    background-color: rgb(240, 240, 240);
+    position: fixed;
+}
+.cookie img {
+    height: 80px;
+    margin: 20px;
+}
+
+.cookie #text {
+    margin-left:80px;
+    margin-right: 80px;
+}
+.cookie button{
+    margin-top: 20px;
+    margin-left:100px;
+    font-weight: bolder;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(153, 186, 230);
+    box-shadow: 3px 3px 3px black;
+}

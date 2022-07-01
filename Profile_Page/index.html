@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserCard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+        </ul>
+        <div class="search">
+            <button class="btn">Sign Out</button>
+        </div>
+    </div>
+    <div class="frame">
+        <div class="box1">
+            <div class="container1">
+                <div class="row">
+                    <img src="images/jane-m.jpg" alt="user" class="profile-pic">
+                </div>
+                <h1 class="profile-name">Jane Doe</h1>
+                <h3>
+                    <img src="icons/map-marker.png" alt="map-marker" class="map-marker">
+                    Seattle
+                </h3>
+                <p>Developer | Engineer | Problem Solver<br>
+                    Master of shadows and the Internet!</p>
+                <p>
+                    <a href="#" onclick="changeName()">
+                        <img src="icons/gear.png" alt="gear" class="gear">
+                        edit profile
+                    </a>
+                </p>
+            </div>
+            <div class="container2">
+                <div class="row2">
+                    <h2 class="title">Education</h2>
+                </div>
+                <h3 id="Dojo">Coding Dojo - Full Stack Bootcamp</h3>
+                <p id="Date"> Dec 2019 - Mar 2020</p>
+                <p id="Info"> Triple black belt in Python, MERN, and C#</p>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="container3">
+                <div class="row2">
+                    <h2 class="title"> <span id = "connectionNum">2</span> Connection Requests</h2>
+                </div>
+                <h3>
+                    <div class="todd">
+                        <img src="images/todd-s.jpg" alt=" Todd" id='friend'>
+                        Todd E
+                        <input type = "image" src="icons/accept-circle.png" class = "yes" onclick="removeTodd(); addYes()">
+                        <input type = "image" src="icons/close-circle.png"  class ="no" onclick="removeTodd()">
+                    </div>
+                    <div class="phil">
+                        <img src="images/phil-s.jpg" alt="Phil" id='friend'>
+                        Phil K
+                        <input type = "image" src="icons/accept-circle.png" class = "yes" onclick="removePhil(); addYes()">
+                        <input type = "image" src="icons/close-circle.png"  class ="no" onclick="removePhil()">
+                    </div>
+                </h3>
+            </div>
+            <div class="container4">
+                <div class="row2">
+                    <h2 class="title"><span id = "yourNum">500</span> Your Connections</h2>
+                </div>
+                <h3>
+                    <img src= "images/adrien-s.jpg" alt="Friend" id='friend'>
+                    Adrien D <br>
+                    <img src="images/anne-s.jpg" alt="Friend" id='friend'>
+                    Anne J <br>
+                    <img src="images/alayne-s.jpg" alt="Friend" id='friend'>
+                    Alayne T <br>
+                    <img src="images/arry-s.jpg" alt="Friend" id='friend'>
+                    Arry Y <br>
+                </h3>
+                <div class="more">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
